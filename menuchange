@@ -1,0 +1,11 @@
+ jQuery(document).on("scroll",function(){
+    if(jQuery(document).scrollTop()>5){
+    jQuery(".header, .logo-menu").addClass("change");
+    } 
+});
+
+jQuery(document).on("scroll",function(){
+    if(jQuery(document).scrollTop()<5){
+    jQuery(".header, .logo-menu").removeClass("change");
+    } 
+});
